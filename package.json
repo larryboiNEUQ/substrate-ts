@@ -1,0 +1,19 @@
+{
+  "name": "substrate_ts",
+  "version": "1.0.0",
+  "description": "Subscribe to an event",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --use_strict public/js/main.js",
+    "start:dev": "nodemon --use_strict --inspect public/js/main.js",
+    "start:debug": "nodemon --use_strict --inspect public/js/main.js"
+  },
+  "author": "Keikei",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^7.15.1",
+    "@polkadot/types": "^7.15.1",
+    "web3": "^1.9.0"
+  }
+}
